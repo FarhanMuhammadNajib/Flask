@@ -71,4 +71,4 @@ def Home():
         # # return render_template("Predict.html", prediction = prediction, img_path = encoded_img_data.decode('utf-8'))
     
 if __name__ == "__main__":
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port=800)
